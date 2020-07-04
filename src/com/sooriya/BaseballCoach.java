@@ -2,6 +2,7 @@ package com.sooriya;
 
 import org.springframework.stereotype.Component;
 
+// bean id = baseballCoach (default id ) since no bean id is specified explicitly
 @Component
 public class BaseballCoach implements Coach {
 

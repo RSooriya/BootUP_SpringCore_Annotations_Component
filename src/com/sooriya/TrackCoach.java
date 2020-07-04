@@ -2,6 +2,7 @@ package com.sooriya;
 
 import org.springframework.stereotype.Component;
 
+// bean id = myCoach 
 @Component("myCoach")
 public class TrackCoach implements Coach {
 
